@@ -1,0 +1,18 @@
+Circuit: * C:\Users\aryam\Desktop\Fall Sem 2021\Electronics Hardware Trouble Shooting Lab\Lab 1 2-8-21\Experiment 1\lab_1_task_3.asc
+
+
+Date: Sat Aug 21 21:47:32 2021
+Total elapsed time: 0.038 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 3
+fillins = 1
+solver = Normal
+

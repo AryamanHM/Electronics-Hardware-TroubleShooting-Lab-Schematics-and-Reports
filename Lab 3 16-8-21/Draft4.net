@@ -1,0 +1,10 @@
+* C:\Users\aryam\OneDrive\Documents\LTspiceXVII\Draft4.asc
+V1 N001 0 SINE(0 5 100)
+V2 N002 0 2
+R1 V_out N001 1K
+D1 V_out N002 1N914
+.model D D
+.lib C:\Users\aryam\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 100m 0.1m 1
+.backanno
+.end

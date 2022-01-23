@@ -1,0 +1,12 @@
+* C:\Users\aryam\OneDrive\Documents\LTspiceXVII\Draft5.asc
+V1 N001 0 SINE(0 5 100)
+C1 V_out N001 330µ V=50 Irms=1.2 Rser=0.08 Lser=0 mfg="Panasonic" pn="ECA1HFQ331" type="Al electrolytic"
+R1 V_out 0 10k
+V2 N002 0 0
+D1 N002 V_out 1N914
+.model D D
+.lib C:\Users\aryam\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 100m 0m 1m
+* ARYAMAN MISHRA 19BCE1027
+.backanno
+.end
